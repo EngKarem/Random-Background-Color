@@ -1,0 +1,66 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #da3939;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+
+}
+
+.colors{
+    font-size: 12px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 15px;
+    background: #fff;
+}
+.colors .hex, .colors .rgb{
+    border-radius: 10px;
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #beb6b6;
+}
+p, span, .copy{
+    display: inline-block;
+}
+.copy{
+    cursor: pointer;
+    float: right;
+}
+.colors button{
+    text-transform: uppercase;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding: 5px;
+}
+.colors button:hover{
+    border: 1px solid #000;
+    background: #fff;
+    color: #000;
+}
+
+#notification{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+#notification div{
+    margin: 5px;
+    padding: 5px;
+    background: #000;
+    color:#fff;
+    border-radius: 10px;
+}

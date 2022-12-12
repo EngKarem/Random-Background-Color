@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang = "en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+  <title>Random Background</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" rel="stylesheet">
+  <link rel='stylesheet' href='style.css'>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tinycolor/1.4.2/tinycolor.min.js" integrity="sha512-+aXA9mgbUvFe0ToTlbt8/3vT7+nOgUmFw29wfFCsGoh8AZMRSU0p4WtOvC1vkF2JBrndPN2TuNZsHPAKPPxe8Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+
+  <div class='colors'>
+    <div class='hex'>
+      <span class='span'>HEX: </span>
+      <p id='hex'></p>
+      <i onclick='copy("hex")' class="copy fa-solid fa-copy"></i>
+    </div>
+    <div class='rgb'>
+      <span class='span'>RGB: </span>
+      <p id='rgb'></p>
+      <i onclick='copy("rgb")' class="copy fa-solid fa-copy"></i>
+    </div>
+
+    <button id='btn'>create</button>
+    <div id='notification'></div>
+  </div>
+
+  <script src='main.js'></script>
+
+
+</body>
+</html>
+
+
